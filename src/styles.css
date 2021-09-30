@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&family=Yaldevi:wght@200&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Gemunu Libre", sans-serif;
+  font-family: "Yaldevi", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 120px 0px 130px;
+  background-color: #ece7b4;
+}
+
+.container {
+  text-align: center;
+}
+h1 {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.food-img {
+  height: 100px;
+  margin-right: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.listItem ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.listItem li {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+.food-item li {
+  border: 1px solid black;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 250px;
+  /* height:px; */
+  padding: 0.5rem;
+  font-size: 20px;
+  border-radius: 10px;
+}
